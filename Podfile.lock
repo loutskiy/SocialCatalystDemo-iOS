@@ -1,0 +1,40 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - ObjectMapper (3.5.1)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - SocialCatalyst (0.0.5):
+    - MagicalRecord
+    - ObjectMapper (~> 3.4)
+    - SDWebImage
+    - SVProgressHUD
+    - VK-ios-sdk
+  - SVProgressHUD (2.2.5)
+  - VK-ios-sdk (1.4.6)
+
+DEPENDENCIES:
+  - SocialCatalyst
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MagicalRecord
+    - ObjectMapper
+    - SDWebImage
+    - SocialCatalyst
+    - SVProgressHUD
+    - VK-ios-sdk
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  SocialCatalyst: a4c667c376a0bee380feb66fd8d03281d61908bf
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  VK-ios-sdk: 7fd48bc5aaa6b96c3197c1987eb6593f2ea67331
+
+PODFILE CHECKSUM: c4d64db17cca8eb7577087c67aa9adde057ed900
+
+COCOAPODS: 1.6.1
