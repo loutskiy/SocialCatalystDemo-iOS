@@ -11,6 +11,7 @@
 		C4085BC6230082FF00FDCA7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4085BC5230082FF00FDCA7B /* AppDelegate.swift */; };
 		C4085BCD2300830000FDCA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4085BCC2300830000FDCA7B /* Assets.xcassets */; };
 		C4085BD02300830000FDCA7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4085BCE2300830000FDCA7B /* LaunchScreen.storyboard */; };
+		C4085BD82300861000FDCA7B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4085BD72300861000FDCA7B /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C4085BCC2300830000FDCA7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4085BCF2300830000FDCA7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4085BD12300830000FDCA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4085BD72300861000FDCA7B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,6 @@
 				12152BDE4BA682BAC064F807 /* Pods-SocialCatalyst-Demo.debug.xcconfig */,
 				5642BF54B6B150D83EC620B9 /* Pods-SocialCatalyst-Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -68,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				C4085BC5230082FF00FDCA7B /* AppDelegate.swift */,
+				C4085BD72300861000FDCA7B /* Config.swift */,
 				C4085BCC2300830000FDCA7B /* Assets.xcassets */,
 				C4085BCE2300830000FDCA7B /* LaunchScreen.storyboard */,
 				C4085BD12300830000FDCA7B /* Info.plist */,
@@ -95,6 +97,7 @@
 				C4085BBF230082FF00FDCA7B /* Frameworks */,
 				C4085BC0230082FF00FDCA7B /* Resources */,
 				81DD0612B33DE341FFE4C8E2 /* [CP] Embed Pods Frameworks */,
+				3C1CA96FAA35BD5B8105D160 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +154,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3C1CA96FAA35BD5B8105D160 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialCatalyst-Demo/Pods-SocialCatalyst-Demo-resources.sh",
+				"${PODS_ROOT}/Appodeal/APDStartAppAdapter.embeddedframework/Resources/StartApp.bundle",
+				"${PODS_ROOT}/Appodeal/APDTapjoyAdapter.embeddedframework/Tapjoy.framework/Resources/en.lproj",
+				"${PODS_ROOT}/Appodeal/APDTapjoyAdapter.embeddedframework/Tapjoy.framework/Resources/TapjoyResources.bundle",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/CommentCell.xib",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/index.html",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/Main.storyboard",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/MediaAttachmentCell.xib",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/PostCell.xib",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/safari-reader-check.js",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/safari-reader.js",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/Assets.xcassets",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Resources/ru.lproj",
+				"${PODS_ROOT}/SocialCatalyst/SocialCatalystSDK/Model.xcdatamodeld",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SocialCatalyst/SocialCatalyst.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StartApp.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TapjoyResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CommentCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/index.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Main.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MediaAttachmentCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PostCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari-reader-check.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/safari-reader.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Model.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SocialCatalyst.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialCatalyst-Demo/Pods-SocialCatalyst-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		68B51DD6787FAFE02F64C2BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,22 +233,22 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SocialCatalyst-Demo/Pods-SocialCatalyst-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SocialCatalyst/SocialCatalyst.framework",
 				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocialCatalyst.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4085BC6230082FF00FDCA7B /* AppDelegate.swift in Sources */,
+				C4085BD82300861000FDCA7B /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YBKQD6YZD;
 				INFOPLIST_FILE = "SocialCatalyst-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YBKQD6YZD;
 				INFOPLIST_FILE = "SocialCatalyst-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

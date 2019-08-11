@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SocialCatalyst
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        SocialCatalystSDK.setSocialCatalystConfiguration(
+            launchOptions: launchOptions,
+            colorScheme: ConfigColorScheme(),
+            settingsScheme: ConfigSettingsScheme(),
+            configuredWith: { w in
+                self.window = w
+        })
         return true
     }
 
